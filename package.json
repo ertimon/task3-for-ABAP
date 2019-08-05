@@ -1,0 +1,19 @@
+{
+  "name": "forabap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "iconv-lite": "^0.5.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.4.1",
+    "request": "^2.88.0",
+    "xmldom": "^0.1.27"
+  }
+}
