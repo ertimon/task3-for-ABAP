@@ -36,8 +36,8 @@ fetch('http://www.cbr.ru/scripts/XML_daily.asp/').then(function(response) {
 let cheap_curr, expensive_curr;
 cheap_curr = xmlDoc.getElementsByTagName("Name")[min_i].childNodes[0].nodeValue;
 expensive_curr = xmlDoc.getElementsByTagName("Name")[max_i].childNodes[0].nodeValue;
-console.log("cамая дорогая валюта - " + expensive_curr + " курс к рублю - " + min);
-console.log("самая дешевая валюта - " + cheap_curr + " курс к рублю - " + max);
+console.log("cамая дорогая валюта - " + expensive_curr + " курс к рублю - " + max);
+console.log("самая дешевая валюта - " + cheap_curr + " курс к рублю - " + min);
   }).catch(err => console.error(err));;
 });
 
